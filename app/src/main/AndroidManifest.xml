@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.com.sample.mynewproject" >
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/hhtiger"
+        android:label="Tiger Companion"
+        android:theme="@style/CustomActionBarTheme"
+                                        >
+        <activity
+            android:name=".Splash"
+            android:label="Tiger Companion"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:icon="@drawable/hhtiger"
+            android:label="Tiger Companion" >
+            <intent-filter>
+                <action android:name="example.com.sample.mynewproject.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".historypage"
+            android:label="@string/title_activity_historypage"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="example.com.sample.mynewproject.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="UST cheers and chants" >
+            <intent-filter>
+                <action android:name="example.com.sample.mynewproject.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RosterMenu"
+            android:label="Roster" >
+            <intent-filter>
+                <action android:name="example.com.sample.mynewproject.ROSTERMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VivaLaLigaElTomasino"
+            android:label="@string/title_activity_viva_la_liga_el_tomasino" >
+        </activity>
+        <activity
+            android:name=".USThymn"
+            android:label="@string/title_activity_usthymn" >
+        </activity>
+        <activity
+            android:name=".GoUSTe"
+            android:label="@string/title_activity_go_uste" >
+        </activity>
+        <activity
+            android:name=".BlackGoldBlackWhite"
+            android:label="@string/title_activity_black_gold_black_white" >
+        </activity>
+        <activity
+            android:name=".Spelling"
+            android:label="@string/title_activity_spelling" >
+        </activity>
+        <activity
+            android:name=".TigersReady"
+            android:label="@string/title_activity_tigers_ready" >
+        </activity>
+        <activity
+            android:name=".VivaSantoTomas"
+            android:label="@string/title_activity_viva_santo_tomas" >
+        </activity>
+        <activity
+            android:name=".Chantra"
+            android:label="@string/title_activity_chantra" >
+        </activity>
+        <activity
+            android:name=".BengBeng"
+            android:label="@string/title_activity_beng_beng" >
+        </activity>
+        <activity
+            android:name=".KevinFerrer"
+            android:label="@string/title_activity_kevin_ferrer" >
+        </activity>
+        <activity
+            android:name=".AljonMariano"
+            android:label="@string/title_activity_aljon_mariano" >
+        </activity>
+        <activity
+            android:name=".KarimAbdul"
+            android:label="@string/title_activity_karim_abdul" >
+        </activity>
+        <activity
+            android:name=".JamilSheriff"
+            android:label="@string/title_activity_jamil_sheriff" >
+        </activity>
+        <activity
+            android:name=".EdDaquioag"
+            android:label="@string/title_activity_ed_daquioag" >
+        </activity>
+        <activity
+            android:name=".PauloPe"
+            android:label="@string/title_activity_paulo_pe" >
+        </activity>
+    </application>
+
+</manifest>

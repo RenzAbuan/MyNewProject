@@ -1,0 +1,44 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/yellow"
+    >
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text= "God of all Nations\n
+Merciful Lord of our Restless Being\n
+Sweep with your Golden Lilies\n
+This Fountain of Purest Light\n
+\n
+Trace with the Sails of the Galleons\n
+The Dream Beyond our Seeing\n
+Touch with the Flames of your Kindness\n
+The Gloom of our Darkest Night\n
+\n
+Keep us in Beauty\n
+And Truth and Virtues Impassioned Embrace\n
+Ever your Valiant Legions\n
+Imbued with Unending Grace"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+
+            />
+
+    </LinearLayout>
+</ScrollView>

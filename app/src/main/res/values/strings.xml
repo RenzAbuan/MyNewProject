@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyNewProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_historypage">Growling Tigers History</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_viva_la_liga_el_tomasino">VivaLaLigaElTomasino</string>
+    <string name="title_activity_usthymn">USThymn</string>
+    <string name="title_activity_go_uste">GoUSTe</string>
+    <string name="title_activity_black_gold_black_white">BlackGoldBlackWhite</string>
+    <string name="title_activity_spelling">Spelling</string>
+    <string name="title_activity_tigers_ready">TigersReady</string>
+    <string name="title_activity_viva_santo_tomas">VivaSantoTomas</string>
+    <string name="title_activity_chantra">Chantra</string>
+    <string name="title_activity_beng_beng">BengBeng</string>
+    <string name="title_activity_kevin_ferrer">KevinFerrer</string>
+    <string name="title_activity_aljon_mariano">AljonMariano</string>
+    <string name="title_activity_karim_abdul">KarimAbdul</string>
+    <string name="title_activity_jamil_sheriff">JamilSheriff</string>
+    <string name="title_activity_ed_daquioag">EdDaquioag</string>
+    <string name="title_activity_paulo_pe">PauloPe</string>
+
+</resources>

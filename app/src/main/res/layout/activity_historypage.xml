@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/yellow">
+
+    <TextView
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="The basketball team was previously known as UST Glowing Goldies until 1992. The team won one NCAA championship in 1930. UST then withdrew permanently in NCAA in 1936 and founded UAAP in 1938. Upon the resumption of the UAAP games after the Pacific War, the Goldies were in every championship match from 1946 up to 1956. From 1964 to 1971, the team met the UE Red Warriors eight times in a championship match, with the Red Warriors winning seven encounters.\n\n
+
+    In the 50th season of UAAP in 1987, the team's Fedencio Oblina was found to be ineligible as he failed his National College Entrance Examinations (NCEE). The board then forfeited all of UST's win where Oblina played, with the Goldies going from a 6–3 record (tied for third) to a 2–7 record, at seventh place ahead of winless NU Bulldogs. The forfeitures benefited Adamson, Ateneo and FEU. Ateneo found themselves at the top of the standings with an 8–1 record. A source of the Manila Standard newspaper confirmed that while Oblina failed the NCEE twice, he passed it on 1985. The UAAP Board then confirmed that Oblina has been meted with a lifetime ban.\n
+    (more)"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+
+        />
+
+</LinearLayout>
+</ScrollView>

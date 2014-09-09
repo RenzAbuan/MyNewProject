@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/skinmeow"
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="example.com.sample.mynewproject.KevinFerrer"
+        android:weightSum="1">
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/mariano"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Name: Aljon Escalona Mariano\n
+Age: 20\n
+Birthday: August 3, 1992\n
+Height: 6’3’’\n
+Playing year: 4th\n
+Position: Power forward\n
+College and Course: College of Commerce, Marketing Management\n
+\n
+My favorite superhero: Superhuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+</ScrollView>

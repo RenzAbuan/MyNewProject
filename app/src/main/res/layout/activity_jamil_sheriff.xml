@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/skinmeow"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="example.com.sample.mynewproject.KevinFerrer"
+        android:weightSum="1">
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/sheriff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Name: Sheak Jamil Sheriff Jr.\n
+Age: 21\n
+Birthday: July 21, 1991\n
+Height: 5’8”\n
+Playing year: 2nd (returnee)\n
+Position: Point Guard\n
+College and Course: College of Commerce, Marketing Management\n
+\n
+The superpower I want: Flying\n
+3 things I can’t live without: Phone, PS3, and my family"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/skinmeow"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="example.com.sample.mynewproject.KevinFerrer"
+        android:weightSum="1">
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/abdul"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Name: Karim Abdul\n
+Age: 22\n
+Birthday: July 3, 1991\n
+Height: 6’6”\n
+Playing year: 3rd\n
+Position: Forward Center\n
+College and Course: College of Commerce, Marketing Management\n
+\n
+NBA teams I support: Spurs and Lakers. I like the way Spurs play and I like Kobe Bryant.\n
+My pledge: I, Karim Abdul, will be the next champion!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:text="L - Santo Tomas Spelling\n
+ A - Santo Tomas Spelling\n
+ L - Santo Tomas Spelling\n
+ A - Santo Tomas Spelling\n
+ Ready 1, 2, 3 (clap)\n
+ S-A-N-T-O T-O-M-A-S \n
+ Santo Tomas Fight!"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDisplay"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="History of Tigers"
+        android:layout_gravity="center"
+        android:id="@+id/bhistory"
+        />
+
+</LinearLayout>

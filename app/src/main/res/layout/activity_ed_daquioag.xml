@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/skinmeow"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="example.com.sample.mynewproject.KevinFerrer"
+        android:weightSum="1">
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/daquioag"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Name: Eduardo Daquioag\n
+Age: 21\n
+Birthday: August 18, 1991\n
+Height: 6’1”\n
+Playing year: 3rd\n
+Position: Point Guard/ Shooting Guard\n
+College and Course: College of Commerce, Marketing Management\n
+\n
+Celebrity that I would like to interview: Coleen Garcia\n
+Funniest moment in the classroom: Sumagot ako sa klase tapos hindi related sa tanong."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+    </LinearLayout>
+</ScrollView>
