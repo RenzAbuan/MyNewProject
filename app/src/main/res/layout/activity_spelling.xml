@@ -32,7 +32,17 @@ Santo Tomas Fight!"
             android:layout_height="fill_parent"
 
 
+
             />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/music"
+            android:layout_gravity="right"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp" />
 
     </LinearLayout>
 </ScrollView>
