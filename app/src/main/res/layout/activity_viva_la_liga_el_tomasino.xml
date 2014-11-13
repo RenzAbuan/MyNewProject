@@ -51,7 +51,8 @@
 \nTomasino, El Tomasino
 \nClap 4x
 \n
-\nVIVA EL TOMASINO!"
+\nVIVA EL TOMASINO!
+ \n\n (No audio available)"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:layout_gravity="center"

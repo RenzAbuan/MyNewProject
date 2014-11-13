@@ -26,7 +26,8 @@ Black White (clap 2x)\n
 Black Gold (clap), Black White (clap)\n
 Go Fight, Fight, Fight\n
 Go Fight (clap 2x) and win (clap 2x)\n
-For U (clap) S (clap) T (clap 3x) Fight!"
+For U (clap) S (clap) T (clap 3x) Fight!
+ \n\n (No audio available)"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:layout_gravity="center"
@@ -39,6 +40,7 @@ For U (clap) S (clap) T (clap 3x) Fight!"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:background="@drawable/music"
+            android:onClick="tigerGold"
             android:layout_gravity="right"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="20dp"

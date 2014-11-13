@@ -36,7 +36,8 @@ FIGHT! UST!\n
 (drumbeat)..U!\n
 (drumbeat)..S!\n
 (drumbeat)..T!\n
-VIVA! UST!"
+VIVA! UST!
+ \n\n (No audio available)"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:layout_gravity="center"

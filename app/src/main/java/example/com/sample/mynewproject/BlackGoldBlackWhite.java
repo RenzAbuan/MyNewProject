@@ -1,10 +1,13 @@
 package example.com.sample.mynewproject;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
 import example.com.sample.mynewproject.R;
 
 public class BlackGoldBlackWhite extends ActionBarActivity {
@@ -13,8 +16,9 @@ public class BlackGoldBlackWhite extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_black_gold_black_white);
+      //  bgold= MediaPlayer.create(BlackGoldBlackWhite.this, R.raw.tigerroar);
+      //  bgold.start();
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

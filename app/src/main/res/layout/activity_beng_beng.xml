@@ -23,7 +23,8 @@ L - Go Fight UST \n\n
 A - Go Fight UST \n\n
 Go fight UST 1-2 3-4 \n\n
 drumbeats \n\n
-after every drumbeat, chant Go fight UST! "
+after every drumbeat, chant Go fight UST!
+ \n\n (No audio available)"
             android:textColor="@color/black"
             android:textSize="23dp"
             android:layout_gravity="center"

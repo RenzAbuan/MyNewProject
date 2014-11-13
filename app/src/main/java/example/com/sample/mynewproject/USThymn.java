@@ -1,10 +1,14 @@
 package example.com.sample.mynewproject;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
 import example.com.sample.mynewproject.R;
 
 public class USThymn extends ActionBarActivity {
@@ -15,6 +19,12 @@ public class USThymn extends ActionBarActivity {
         setContentView(R.layout.activity_usthymn);
     }
 
+
+    public void hymn(View view) {
+        // Do something in response to button
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.youtube.com/watch?v=ZtQBKPRreA4"));
+        startActivity(intent);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

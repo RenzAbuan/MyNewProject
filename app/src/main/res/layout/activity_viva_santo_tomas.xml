@@ -36,6 +36,7 @@ And to win it with no fear\n\n"
             android:layout_height="60dp"
             android:background="@drawable/music"
             android:layout_gravity="right"
+            android:onClick="vivas"
             android:layout_alignParentBottom="true"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="30dp" />

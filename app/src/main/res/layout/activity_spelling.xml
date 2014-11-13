@@ -24,7 +24,8 @@ L - Santo Tomas Spelling\n\n
 A - Santo Tomas Spelling\n\n
 Ready 1, 2, 3 (clap)\n\n
 S-A-N-T-O T-O-M-A-S \n\n
-Santo Tomas Fight!"
+Santo Tomas Fight!
+ \n\n (No audio available)"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:layout_gravity="center"

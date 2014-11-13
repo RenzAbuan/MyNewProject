@@ -1,6 +1,7 @@
 package example.com.sample.mynewproject;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -40,8 +41,10 @@ public class MainActivity extends ActionBarActivity {
     /** Called when the user clicks the Send button */
     public void tigerHistory(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, historypage.class);
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://en.wikipedia.org/wiki/UST_Growling_Tigers"));
         startActivity(intent);
+      //  Intent intent = new Intent(this, historypage.class);
+      //  startActivity(intent);
     }
 
     public void teamRoster(View view) {
